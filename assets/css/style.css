@@ -1,0 +1,28 @@
+
+/* Global styles ============= */
+
+/* Navbar section ============= */
+
+/* Hero section ============= */
+header.masthead {
+    min-height: 400px;
+    align-items: center;
+    background: url("../images/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Work section ============= */
+
+.card-img-top{
+    max-height: 200px;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+/* Skills section ============= */
+
+/* About / Contact section ============= */
+
+/* Footer section ============= */
