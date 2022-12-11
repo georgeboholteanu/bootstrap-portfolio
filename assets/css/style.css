@@ -1,4 +1,6 @@
-
+:root {
+    --gb-yellow: #ffcc00
+}
 /* Global styles ============= */
 *{
     margin: 0;
@@ -11,14 +13,9 @@ a:focus,
 a:hover {
   color: #fff;
 }
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none;
-  background-color: #fff;
-  border: .05rem solid #fff;
+a:hover {
+    opacity: 70%;
+    border-color: aqua;
 }
 body {
     min-height: 100vh;
@@ -39,25 +36,30 @@ body {
 }
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: orange;
+  border-bottom-color: var(--gb-yellow);
 }
 
 
 /* Hero section ============= */
-#hero {
-    margin-top:30px;
-    min-height: 400px;
+#hero {    
+    min-height: 1080px;
     background-color: #333;
-    background-image: url("../images/hero_image.jpg");
+    background-image: url("../images/exterior_hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode:color-dodge;
+    background-blend-mode:overlay;
+}
+.cover-container {
+ padding-top: 100px;
+    
 }
 
-
 /* Work section ============= */
-#work {
-    margin-top:30px;
+#hero, #work, #skills, #contact {
+    margin-top:30px;    
+}
+.cover-heading {
+    color: var(--gb-yellow)
 }
 .card{
     color:#333   
@@ -70,15 +72,11 @@ body {
 
 
 /* Skills section ============= */
-#skills {
-    margin-top:30px;
-}
+
 
 
 /* About / Contact section ============= */
-#contact {
-    margin-top:30px;
-}
+
 
 
 /* Footer section ============= */
