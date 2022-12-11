@@ -8,144 +8,220 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+         <!-- ICONS CSS-->
+
+
         <!-- Custom styles for this template -->
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>George Boholteanu // Portfolio</title>
     </head>
-    <body>   
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-warning">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/images/gb_logo.png" alt="George Boholteanu" width="50" height="50">
-                </a>
-                <a class="nav-link active" aria-current="page">George Boholteanu</a>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">                            
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>                    
-                </div>
-            </div>
-        </nav>
-        
-        <!-- Hero section -->
-        <header class="masthead">
-            <div class="jumbotron">
-                <h1 class="display-4">Hi, Welcome</h1>
-                <p class="lead text-warning">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                
-                <!-- <hr class="my-4"> -->
-                <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-                <!-- <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">Enter</a>
-                </p>
-            </div> -->
-        </header>
 
-        <!-- Work section -->
-        <section class="work">
-            <div class="container">
-                <div class="row">
-                    <h2 class="h2">Work</h2>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="./assets/images/cgi001.jpg">
-                                <img class="card-img-top" src="./assets/images/cgi001_sml.jpg" alt="">    
-                            </a>                            <div class="card-body">
-                                <p class="card-text">Mexico Airport</p>
+    <body class="text-center">        
+        <section class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <!-- Navbar -->
+            <header id="home" class="masthead mb-auto">
+                <div class="inner">
+                    <!-- <h3 class="masthead-brand">George</h3> -->
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/gb_logo.png" alt="George Boholteanu" width="50" height="50">
+                    </a>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#work">Work</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </nav>
+                </div>
+            </header>
+
+            <!-- <nav id="home" class="navbar navbar-expand-lg bg-warning">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/gb_logo.png" alt="George Boholteanu" width="50" height="50">
+                    </a>
+                    <a class="nav-link active" aria-current="page">George Boholteanu</a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#work">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>                    
+                    </div>
+                </div>
+            </nav> -->        
+
+            <!-- Hero section -->
+            <section id="hero">
+                <div class="masthead">
+                    <h5 class="display-5">hi</h5>
+                    <h5 class="display-5">I'm George</h5>
+                    <h5 class="display-5">A Web Developer</h5>
+                    <h5 class="display-5 text-warning">based in London</h5>
+                    <p class="lead">After a decade of working as an Architect I became passionate about coding. I self learned Python and now I am studying web development.</p>
+                    
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>                    
+                    </p>
+                </div>
+            </section>
+
+            <!-- Work section -->
+            <section id="work">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="cover-heading">Work</h2>
+                        <hr>  
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="./assets/images/cgi001.jpg">
+                                    <img class="card-img-top" src="./assets/images/cgi001_sml.jpg" alt="">    
+                                </a>                            <div class="card-body">
+                                    <p class="card-text">Mexico Airport</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="./assets/images/cgi002.jpg">
-                                <img class="card-img-top" src="./assets/images/cgi002_sml.jpg" alt="">    
-                            </a>                            <div class="card-body">
-                                <p class="card-text">Bodrum Villas</p>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="./assets/images/cgi002.jpg">
+                                    <img class="card-img-top" src="./assets/images/cgi002_sml.jpg" alt="">    
+                                </a>                            <div class="card-body">
+                                    <p class="card-text">Bodrum Villas</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="./assets/images/cgi003.jpg">
-                                <img class="card-img-top" src="./assets/images/cgi003_sml.jpg" alt="">    
-                            </a>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="./assets/images/cgi003.jpg">
+                                    <img class="card-img-top" src="./assets/images/cgi003_sml.jpg" alt="">    
+                                </a>
+                                    <div class="card-body">
+                                    <p class="card-text">Kings Cross Offices</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="./assets/images/cgi004.jpg">
+                                    <img class="card-img-top" src="./assets/images/cgi004_sml.jpg" alt="">    
+                                </a>
                                 <div class="card-body">
-                                <p class="card-text">Kings Cross Offices</p>
+                                    <p class="card-text">Berkley Square Offices</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="./assets/images/cgi004.jpg">
-                                <img class="card-img-top" src="./assets/images/cgi004_sml.jpg" alt="">    
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text">Berkley Square Offices</p>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="./assets/images/cgi005.jpg">
+                                    <img class="card-img-top" src="./assets/images/cgi005_sml.jpg" alt="">    
+                                </a>                            
+                                <div class="card-body">
+                                    <p class="card-text">Oxford Offices</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="./assets/images/cgi005.jpg">
-                                <img class="card-img-top" src="./assets/images/cgi005_sml.jpg" alt="">    
-                            </a>                            
-                            <div class="card-body">
-                                <p class="card-text">Oxford Offices</p>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="./assets/images/SAM-preview.jpg">
+                                    <img class="card-img-top" src="./assets/images/SAM_original.jpg" alt="" style="object-position: 0px -20px;">    
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Smart Asset Manager</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="./assets/images/SAM-preview.jpg">
-                                <img class="card-img-top" src="./assets/images/SAM_original.jpg" alt="" style="object-position: 0px -20px;">    
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text">Smart Asset Manager</p>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="https://public.flourish.studio/visualisation/10114978/">
+                                    <img class="card-img-top" src="./assets/images/data-visualization.jpg" alt="">    
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Data Visualization</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                            <a href="https://public.flourish.studio/visualisation/10114978/">
-                                <img class="card-img-top" src="./assets/images/data-visualization.jpg" alt="">    
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text">Data Visualization</p>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="https://georgeboholteanu.github.io/horiseon-web-refactor/">
+                                    <img class="card-img-top" src="./assets/images/Horiseon-demo.png" alt="" style="object-position: 0px -10px;">    
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Horiseon Website</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 g-2 g-lg-3">
+                            <div class="card">
+                                <a href="https://georgeboholteanu.github.io/portfolio-website/">
+                                    <img class="card-img-top" src="./assets/images/portfolio-mochup.png" alt="" style="object-position: 0px -15px;">    
+                                </a>
+                                <div class="card-body">
+                                    <p class="card-text">Portfolio Website</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-        </section>
+            <!-- Skills section -->
+            <section id="skills">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="cover-heading">Skills</h2>
+                        <hr>                    
+                        <div class="col-sm-12 col-md-4 col-lg-4">                            
+                            <h5>HTML</h5>
+                            <div class="progress">                                
+                                <div class="progress-bar" role="progressbar" style="width: 70%"aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>                            
+                            <br>
+                            <h5>CSS</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                            <h5>Python</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                            <h5>Javascript</h5>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Skills section -->
-        <section>
+            </section>
 
-        </section>
+            <!-- About / Contact section -->
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="cover-heading">Contact</h2>
+                        <div class="col-sm-12 col-md-4 col-lg-4"></div>
+                    </div>
+                </div>
+            </section>
 
-        <!-- About / Contact section -->
-        <section>
+            <!-- Footer section -->
+            <footer>
 
-        </section>
+            </footer>
 
-        <!-- Footer section -->
-        <footer>
+        </section>  
 
-        </footer>
-
+        <!-- js -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
 </html>
