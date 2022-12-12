@@ -1,6 +1,7 @@
 :root {
     --gb-yellow: #ffcc00
 }
+
 /* Global styles ============= */
 *{
     margin: 0;
@@ -15,7 +16,6 @@ a:hover {
 }
 a:hover {
     opacity: 70%;
-    border-color: aqua;
 }
 body {
     min-height: 100vh;
@@ -32,17 +32,20 @@ body {
     font-weight: 700;
     color: rgba(255, 255, 255, .5);
     background-color: transparent;
-    border-bottom: .25rem solid transparent;
+    border-bottom: .25rem solid transparent;    
 }
 .nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: var(--gb-yellow);
+.nav-masthead .nav-link:focus,
+.nav-masthead .nav-link:hover::after {
+  border-bottom-color: var(--gb-yellow);  
+  transition: 0.5s;
 }
 
 
 /* Hero section ============= */
-#hero {    
-    min-height: 1080px;
+#hero { 
+    padding-top: 70px;   
+    min-height: 1200px;
     background-color: #333;
     background-image: url("../images/exterior_hero.jpg");
     background-repeat: no-repeat;
@@ -50,33 +53,97 @@ body {
     background-blend-mode:overlay;
 }
 .cover-container {
- padding-top: 100px;
-    
+ padding-top: 100px;    
 }
 
+
 /* Work section ============= */
-#hero, #work, #skills, #contact {
-    margin-top:30px;    
-}
+
 .cover-heading {
     color: var(--gb-yellow)
 }
-.card{
-    color:#333   
+.card .card-body {
+    background: 
+    /* On "top" */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 20px,
+      #ccc 5px,
+      rgb(80, 80, 80) 10px
+    ),
+    /* on "bottom" */
+    linear-gradient(
+      to bottom,
+      #eee,
+      rgb(80, 80, 80)
+    );
+    color: #333
 }
 .card-img-top{
     max-height: 200px;
     min-height: 200px;
     object-fit: cover;
 }
+nav .fa {
+    display: none;
+    color: var(--gb-yellow);
+}
 
 
-/* Skills section ============= */
+@media (max-width: 700px) {
 
+    /* Navbar */ 
+    #navLinks {        
+        position: absolute;
+        background: rgba(0, 0, 0, .5);
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right:-200px;
+        padding-top: 70px;
+        opacity: 90%;        
+    }
+  
+    /* Logo */
+    .navbar-brand {   
+        display: none;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding-bottom: 35px;
+        padding-right: 45px;
+        justify-content: center;
+        
+    }
+    .nav {
+        display: block;
+    }
+    .nav-link {
+        padding: none;
+        height: max-content;
+    }
+    #navLinks .fa, nav .fa.fa-bars  {
+        display: block;
+        cursor: pointer;
+        margin: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 18px;
+    }
+    nav .fa.fa-times {
+      padding-right: 100px;
+    }
 
-
-/* About / Contact section ============= */
-
-
-
-/* Footer section ============= */
+    /* Hero section */
+    #hero {          
+        min-width: none;
+        min-height: 100vh;
+    }
+    #description {
+        margin: 20px;
+        font-size: 12px;        
+    }
+    
+}
