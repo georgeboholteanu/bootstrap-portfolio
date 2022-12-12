@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Portfolio Application In Bootstrap 
 
 ## Description
