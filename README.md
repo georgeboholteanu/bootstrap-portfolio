@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Portfolio Application In Bootstrap 
 
 ## Description
@@ -35,11 +35,4 @@ https://github.com/georgeboholteanu/bootstrap-portfolio
 ### Contact
 For any suggestions or ideas ping me at [@George Boholteanu](george.boholteanu@gmail.com)
 
----
-© 2022 George Boholteanu. All Rights Reserved.
-=======
-# bootstrap-portfolio
-
-# WEBSITE URL
-https://georgeboholteanu.github.io/bootstrap-portfolio/
->>>>>>> cf71760b2ad0c46aea22eacd2e34be0beeb7afde
+---© 2022 George Boholteanu. All Rights Reserved.
