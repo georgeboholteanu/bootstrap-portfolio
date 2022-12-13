@@ -8,6 +8,7 @@ This website is as personal portfolio showcasing some of my work experience and 
 &nbsp;
 ## Features
 Web application has been created using HTML, CSS, JAVASCRIPT and Bootstrap including responsive design. 
+It includes a toggle menu for mobile devices.
 
 &nbsp;
 ## Moch-up
@@ -33,6 +34,6 @@ https://github.com/georgeboholteanu/bootstrap-portfolio
 &nbsp;
 &nbsp;
 ### Contact
-For any suggestions or ideas ping me at [@George Boholteanu](george.boholteanu@gmail.com)
+For any suggestions or ideas ping me at [George Boholteanu](mailto:george.boholteanu@gmail.com)
 
----© 2022 George Boholteanu. All Rights Reserved.
+© 2022 George Boholteanu. All Rights Reserved.
