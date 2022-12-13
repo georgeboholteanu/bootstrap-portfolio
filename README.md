@@ -17,8 +17,8 @@ The following image shows the web application's appearance and functionality:
 #### ** Computer Preview **
 ![portfolio-bootstrap-mochup-computer](./assets/images/portfolio-bootstrap-mochupFull.png)
 
-#### ** Phone Preview **
-![portfolio-bootstrap-mochup-phone](./assets/images/portfolio-mochup_(iPhone%20SE).png)
+#### ** Mobile Preview **
+![portfolio-bootstrap-mochup-phone](./assets/images/portfolio-bootstrap-mochup_mobile.png)
 
 &nbsp;
 ## Website URL
