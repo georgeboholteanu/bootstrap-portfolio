@@ -16,49 +16,66 @@
         <title>George Boholteanu // Portfolio</title>
     </head>
     
-    <body class="text-center">     
+    <body class="text-center"> 
+        <!-- Jumbotron     -->
+        <div class="jumbotron ">
+            <div class="container" id="hero">
+                
+                <!-- Navbar -->
+                <header class="navBar justify-content-center pt-4">            
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/gb_logo.png" alt="George Boholteanu" width="50" height="50">
+                    </a>
+                    <nav class="nav justify-content-center pt-2">                        
+                        <div id="navLinks">
+                            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>  
 
-        <!-- Navbar -->
-        <header class="masthead">
-            <div class="inner p-4">             
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/images/gb_logo.png" alt="George Boholteanu" width="50" height="50">
-                </a>
-                <nav class="nav nav-masthead navbar-right justify-content-center p-2">                        
-                    <div id="navLinks" class="nav navbar-right">
-                        <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>  
+                            <ul>
+                                <li>
+                                    <a class="nav-link active" href="#">Home</a> 
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="#work" onclick="hideMenu()">Work</a>   
+                                </li>                                
+                                <li>
+                                    <a class="nav-link" href="#skills" onclick="hideMenu()">Skills</a> 
+                                </li>                                
+                                <li>
+                                    <a class="nav-link" href="#contact" onclick="hideMenu()">Contact</a>  
+                                </li>                                
+                            </ul>
+                            
+                             
+                                             
+                                               
+                                                                            
+                        </div>   
+                        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i> 
+                    </nav> 
+                </header>  
 
-                        <a class="nav-link active" href="#">Home</a>                    
-                        <a class="nav-link" href="#work" onclick="hideMenu()">Work</a>                    
-                        <a class="nav-link" href="#skills" onclick="hideMenu()">Skills</a>                    
-                        <a class="nav-link" href="#contact" onclick="hideMenu()">Contact</a>                                                  
-                    </div>   
-                    <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i> 
-                </nav>       
-            </div>
-        </header>            
+                <!-- Hero section -->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <h5 class="display-2 pt-5">Hi!</h5>
+                            <h5 class="display-6 pt-5">I'm George</h5>
+                            <h5 class="display-7">A Web Developer</h5>
+                            <h5 class="display-7">based in London</h5>
 
-        <!-- Hero section -->
-        <section id="hero">
-            <div class="container p-4">
-                <div class="row justify-content-center pt-5">
-                    <div class="col-sm-4 col-md-4 col-lg-4">
-                        <h5 class="display-2 pt-5">Hi!</h5>
-                        <h5 class="display-6 pt-5">I'm George</h5>
-                        <h5 class="display-7">A Web Developer</h5>
-                        <h5 class="display-7">based in London</h5>
-
-                        <hr class="my-4">
-                        <p id="description">After a decade of working as an Architect I became passionate about coding. I self learned Python and now I am studying Web Development.</p>
-                        </p>
+                            <hr class="my-4">
+                            <p id="description">After a decade of working as an Architect I became passionate about coding. I self learned Python and now I am studying Web Development.</p>
+                            </p>
+                        </div>
                     </div>
                 </div>
+                
             </div>
-        </section>
+        </div>
 
         <!-- Work section -->
         <section id="work">
-            <div class="container p-4">
+            <div class="container pt-4">
                 <div class="row">
                     <h2 class="cover-heading">Work</h2>
                     <hr>  
@@ -157,7 +174,7 @@
 
         <!-- Skills section -->
         <section id="skills">
-            <div class="container p-4">
+            <div class="container pt-4">
                 <div class="row">
                     <h2 class="cover-heading">Skills</h2>
                     <hr>                    
@@ -189,7 +206,7 @@
 
         <!-- About / Contact section -->
         <section id="contact">
-            <div class="container p-4">
+            <div class="container pt-4">
                 <div class="row">                        
                     <h2 class="cover-heading">Contact</h2>
                     <hr>
@@ -239,7 +256,7 @@
                 navLinks.style.transition = "0.5s";
             }
             function hideMenu(){
-                navLinks.style.right = "-200px";
+                navLinks.style.right = "-150px";
                 navLinks.style.transition = "0.5s";
             }
         </script>
