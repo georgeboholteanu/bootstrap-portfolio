@@ -20,6 +20,7 @@ a:hover, a:focus {
     color: var(--gb-yellow);
 }
 
+
 /* NAVBAR SECTION */
 
 #nav-bar {
@@ -46,9 +47,7 @@ a:hover, a:focus {
 .navbar-nav li a:hover {
     color: var(--gb-yellow);
 }
-/* .navbar-nav li:hover {
-    border-bottom: indianred;
-} */
+
 .fa-bars {
     color: var(--gb-yellow);
     font-size: 30px !important;
@@ -63,13 +62,10 @@ a:hover, a:focus {
     outline: none;
     box-shadow: none;
 }
+
+
 /* HERO SECTION */
-#hero {
-    background-image: url("/assets/images/exterior_hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: bottom;    
-}
+
 #hero img {    
     width: 60%;
     border-radius: 1rem;    
